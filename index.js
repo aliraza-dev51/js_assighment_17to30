@@ -241,3 +241,69 @@
 //     }    
 // }    
 // document.write(`Text: ${str} <br> There are ${count} occurrence(s) of word 'the'`);
+
+//---------Chapter26 to 30-------//
+
+//Q1
+// let userInteger = +prompt("Enter positive integer");
+
+// let  round = Math.round(userInteger);
+// let  floor = Math.floor(userInteger);
+// let  ceil  = Math.ceil(userInteger);
+
+// document.write(`Number = ${userInteger} </br>`);
+// document.write(`Round = ${round}  </br>`);
+// document.write(`Floor = ${floor} </br>`);
+// document.write(`Ceil  = ${ceil} `);
+
+//Q2
+// let userIntegerNegative = +prompt("Enter Negative integer");
+
+// let  round = Math.round(userIntegerNegative);
+// let  floor = Math.floor(userIntegerNegative);
+// let  ceil  = Math.ceil(userIntegerNegative);
+
+// document.write(`Number = ${userIntegerNegative} </br>`);
+// document.write(`Round = ${round}  </br>`);
+// document.write(`Floor = ${floor} </br>`);
+// document.write(`Ceil  = ${ceil} `);
+
+//Q3
+// let userValue = prompt("Enter Your Value");
+
+// let absoluteConvert = Math.abs(userValue);
+// document.write(` absolute value of ${userValue} is ${absoluteConvert}`);
+
+//Q4
+// let randomDice = Math.round( Math.random() * 6);
+
+//  document.write(`Random Dice Value : ${randomDice}`);
+
+//Q5
+// let coin = Math.ceil(Math.random() * 2);
+
+// let result = coin == 2 ? "Head": "Tail";
+
+// document.write(`${coin} Random Coin Value : ${result} `);
+
+//Q6
+// let randomNum = Math.ceil(Math.random()* 100);
+
+// document.write(`random number between 1 and 100:${randomNum}`);
+
+//Q7
+//let weight = prompt("Enter your weight in kilograms");
+
+// let weightNum = parseFloat(weight);  
+// document.write(`The weight of user is ${weightNum} kilograms`);
+
+//Q8
+// let secretNum = Math.ceil(Math.random() * 10);       
+// let userGuess = +prompt("Enter a number between 1 and 10");
+
+// if(userGuess === secretNum){ 
+//     alert("Congratulations! You guessed the secret number.");
+// } else {
+//     alert(`Sorry, the secret number was ${secretNum}. Better luck next time!`);
+// }
+
